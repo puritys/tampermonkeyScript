@@ -15,4 +15,6 @@
     document.body.onselectstart="return true";
     document.body.ondragstart="return true";
     document.body.style="";
+    var s = document.querySelector("#ad-full-page");
+    if (s) s.remove();
 })();
